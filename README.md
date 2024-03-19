@@ -1,30 +1,57 @@
 # Table of Contents
 
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+1. [Arrays & Hashing](#a&h)
 
-## Introduction <a name="introduction"></a>
+2. [Two Pointers](#twoPointers)
+3. [Stack](#stack)
 
-Brief introduction to your project goes here.
+4. [Binary Search](#binarySearch)
+5. [Sliding Window](#slidingWindow)
+6. [Linked List](#linkedList)
 
-## Installation <a name="installation"></a>
+7. [Trees] (#trees)
 
-Instructions on how to install your project.
+8. [Tries]
+9. [Backtracking]
 
-## Usage <a name="usage"></a>
+10. [Heap / Priority Queue]
 
-Examples and guidelines on how to use your project.
+11. [Graphs]
+12. [1-D DP]
 
-## Contributing <a name="contributing"></a>
+13. [Intervals]
+14. [Greedy]
+15. [Advanced Graphs]
+    
+16. [2-D DP]
+17. [Bit Manipulation]
 
-Guidelines on how to contribute to the project.
+18. [Math & Geometry]
 
-## License <a name="license"></a>
 
-Information about the project's license.
+
+## Arrays & Hashing <a name="a&h"></a>
+
+- Currently Empty
+
+## Two Pointers <a name="twoPointers"></a>
+
+- Currently Empty
+
+## Stack <a name="stack"></a>
+
+- Currently Empty
+
+## Binary Search <a name="binarySearch"></a>
+
+- Currently Empty
+
+## Sliding Window <a name="slidingWindow"></a>
+
+- Currently Empty
+
+## Linked List <a name="Linked List"></a>
+
 
 
 
