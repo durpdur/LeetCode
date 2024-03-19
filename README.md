@@ -32,33 +32,8 @@
 
 ## Arrays & Hashing <a name="a&h"></a>
 
-- Currently Empty
-
-## Two Pointers <a name="twoPointers"></a>
-
-- Currently Empty
-
-## Stack <a name="stack"></a>
-
-- Currently Empty
-
-## Binary Search <a name="binarySearch"></a>
-
-- Currently Empty
-
-## Sliding Window <a name="slidingWindow"></a>
-
-- Currently Empty
-
-## Linked List <a name="Linked List"></a>
-
-## Trees <a name="trees"></a>
-
-
-
-
-# 242. Valid Anagram
-## Solution 1:
+## 242. Valid Anagram
+#### Solution 1:
 Time Complexity: $O(n)$
 Explanation: 
 - Check if length of first string is equal to second string
@@ -92,3 +67,28 @@ class Solution(object):
 				return False
 		return True
 ```
+
+
+## Two Pointers <a name="twoPointers"></a>
+
+- Currently Empty
+
+## Stack <a name="stack"></a>
+
+- Currently Empty
+
+## Binary Search <a name="binarySearch"></a>
+
+- Currently Empty
+
+## Sliding Window <a name="slidingWindow"></a>
+
+- Currently Empty
+
+## Linked List <a name="Linked List"></a>
+
+## Trees <a name="trees"></a>
+
+
+
+
