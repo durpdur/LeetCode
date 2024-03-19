@@ -9,7 +9,7 @@
 5. [Sliding Window](#slidingWindow)
 6. [Linked List](#linkedList)
 
-7. [Trees] (#trees)
+7. [Trees](#trees)
 
 8. [Tries]
 9. [Backtracking]
@@ -87,7 +87,11 @@ class Solution(object):
 
 ## Linked List <a name="Linked List"></a>
 
+- Currently Empty
+
 ## Trees <a name="trees"></a>
+
+- Currently Empty
 
 
 
