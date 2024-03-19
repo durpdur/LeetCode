@@ -1,13 +1,13 @@
 # Table of Contents
 
-1. [Arrays & Hashing](#a&h)
+1. [Arrays & Hashing](#arrays--hashing)
 
-2. [Two Pointers](#twoPointers)
+2. [Two Pointers](#two-pointers)
 3. [Stack](#stack)
 
-4. [Binary Search](#binarySearch)
-5. [Sliding Window](#slidingWindow)
-6. [Linked List](#linkedList)
+4. [Binary Search](#binary-search)
+5. [Sliding Window](#sliding-window)
+6. [Linked List](#linked-list)
 
 7. [Trees](#trees)
 
@@ -30,7 +30,17 @@
 
 
 
-## Arrays & Hashing <a name="a&h"></a>
+# Arrays & Hashing
+
+1. [Contains Duplicate]
+2. [Valid Anagram](#242-valid-anagram)
+3. [Two Sum]
+4. [Group Anagrams]
+5. [Top K Frequent Elements]
+6. [Product of Array Except Self]
+7. [Valid Sudoku]
+8. [Encode and Decode Strings]
+9. [Longest Consecutive Sequence]
 
 ## 242. Valid Anagram
 #### Solution 1:
@@ -42,7 +52,7 @@ Explanation:
 	- At the index of the letter
 		- increase the value for the first string
 		- decrease the value for the second string
-- (first **n**)Check if the sum of the values in the map is 0
+- (first **n**) Check if the sum of the values in the map is 0
 
 ```python
 class Solution(object):
@@ -69,27 +79,27 @@ class Solution(object):
 ```
 
 
-## Two Pointers <a name="twoPointers"></a>
+# Two Pointers
 
 - Currently Empty
 
-## Stack <a name="stack"></a>
+# Stack
 
 - Currently Empty
 
-## Binary Search <a name="binarySearch"></a>
+# Binary Search
 
 - Currently Empty
 
-## Sliding Window <a name="slidingWindow"></a>
+# Sliding Window
 
 - Currently Empty
 
-## Linked List <a name="Linked List"></a>
+# Linked List
 
 - Currently Empty
 
-## Trees <a name="trees"></a>
+# Trees
 
 - Currently Empty
 
