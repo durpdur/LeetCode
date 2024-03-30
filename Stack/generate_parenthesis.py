@@ -1,3 +1,10 @@
+import os
+import sys 
+
+os.system("clear")
+def print_error(message):
+    sys.stderr.write("\033[91m{}\033[0m\n".format(message))
+
 def generateParenthesis(n):
     # only add open paranthesis if open < n
     # only add a closing parathesis if close < open
@@ -9,21 +16,27 @@ def generateParenthesis(n):
     def backtrack(openN, closedN):
         # when openN and closedN is equal to n, the solution is complete, so we store it in res
         if openN == closedN == n:
+            print(f"backtrack({openN}, {closedN})")
+            print_error(f"Ending reached:     {stack}\n")
             res.append("".join(stack)) # joins current stack solution and puts it in res 
             return
         
         # when there has not yet been n open paranthesis, 
         if openN < n:
-            stack.append("(") # slap a open parenthesis in the stack
+            stack.append("(")
+            print(f"backtrack({openN}, {closedN})")
+            print(f"if openN < n:       {stack}\n")
             backtrack(openN + 1, closedN) # proceeds the path this combo will create
-            stack.pop() # the part I don't understand is here
-         
+            print_error(f"Pop!: {stack.pop()}") # goes back to the last backtrack call in the stack before popping
+        
         if closedN < openN:
-            stack.append(")") # slap a closed parenthesis int the stack
+            stack.append(")") # slap a closed parenthesis in the stack
+            print(f"backtrack({openN}, {closedN})")
+            print(f"if closedN < openN: {stack}\n")
             backtrack(openN, closedN + 1)
-            stack.pop()
-    
+            print_error(f"Pop!: {stack.pop()}")
+            
     backtrack(0,0) # starts the backtrack recursive loop with openN and closedN set to 0
     return res
 
-print(generateParenthesis(2))
+print(generateParenthesis(3))
